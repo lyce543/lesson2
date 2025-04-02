@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English Language Training Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+        }
+        
+        .container {
+            max-width: 960px;
+            margin: auto;
+        }
+        
+        header, footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #4c4c4c;
+        }
+        
+        h1 {
+            font-size: 3em;
+        }
+        
+        .course-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 10px auto;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 1.7em;
+        }
+        
+        p {
+            line-height: 1.5;
+            font-size: 1em;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4c4c4c;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        document.querySelector('.btn').addEventListener('click', function() {
+            alert('You clicked the "Enroll Now" button!');
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to English Language Training Center</h1>
+    </header>
+    <main class="container">
+        <section id="courses-section">
+            <div class="course-card">
+                <img src="path/to/your/image.jpg" alt="English Course Image" width="200">
+                <h2>Beginner English</h2>
+                <p>A course for those starting their English learning journey.</p>
+                <button class="btn">Enroll Now</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 English Language Training Center
+    </footer>
+</body>
+</html>
